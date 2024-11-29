@@ -2,6 +2,11 @@
   "name": "sun-jy-theme",
   "displayName": "sun-jy-theme",
   "publisher": "SunJaeYun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sun-jaeyun/sun-jy-theme.git"
+  },
+  "license": "MIT",
   "description": "",
   "version": "0.0.1",
   "engines": {
