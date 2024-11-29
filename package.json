@@ -1,6 +1,6 @@
 {
   "name": "sun-jy-theme",
-  "displayName": "sun-jy-theme",
+  "displayName": "Sun JY Theme",
   "publisher": "SunJaeYun",
   "repository": {
     "type": "git",
@@ -8,8 +8,8 @@
   },
   "icon": "public/icon.png",
   "license": "MIT",
-  "description": "",
-  "version": "0.0.2",
+  "description": "Fork of Comunnity Material Theme Darker High Contrast",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -20,7 +20,7 @@
     "themes": [
       {
         "label": "Sun JY Theme",
-        "uiTheme": "hc-black",
+        "uiTheme": "vs-dark",
         "path": "./themes/sun-jy-theme.json"
       }
     ]
