@@ -6,11 +6,12 @@
     "type": "git",
     "url": "git+https://github.com/sun-jaeyun/sun-jy-theme.git"
   },
+  "icon": "public/icon.png",
   "license": "MIT",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
@@ -18,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "sun-jy-theme",
+        "label": "Sun JY Theme",
         "uiTheme": "hc-black",
-        "path": "./themes/sun-jy-theme-color-theme.json"
+        "path": "./themes/sun-jy-theme.json"
       }
     ]
   }
