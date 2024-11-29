@@ -1,0 +1,22 @@
+{
+  "name": "sun-jy-theme",
+  "displayName": "sun-jy-theme",
+  "publisher": "SunJaeYun",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sun-jy-theme",
+        "uiTheme": "hc-black",
+        "path": "./themes/sun-jy-theme-color-theme.json"
+      }
+    ]
+  }
+}
