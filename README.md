@@ -1,16 +1,18 @@
-# sun-jy-theme README
+# sun-jy-theme
 
-## Working with Markdown
+## Why?
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+I love the Community Material Theme (also known as the legacy version of Material Theme), especially the Darker High Contrast variant. However, starting December 2023, the official legacy version is no longer available on the marketplace. Unfortunately, the Darker High Contrast from the new official Material Theme doesn’t meet my preferences.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+As a result, I decided to fork the theme from the legacy version to continue using the one I love.
 
-## For more information
+## Contribution
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+If you’d like to contribute to this project:
+1.	Fork the repository: Clone the project to your own GitHub account.
+2.	Create a branch: Make a new branch for your feature or bug fix (git checkout -b feature-name).
+3.	Make changes: Modify the theme to improve or customize it further.
+4.	Test your changes: Ensure your changes work as expected.
+5.	Submit a pull request: Open a pull request with a clear description of your changes and their purpose.
 
-**Enjoy!**
+All contributions are welcome, whether it’s bug fixes, enhancements, or documentation improvements. Together, we can keep this theme alive and polished!
