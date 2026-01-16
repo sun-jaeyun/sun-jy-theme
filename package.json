@@ -9,7 +9,7 @@
   "icon": "public/icon.png",
   "license": "MIT",
   "description": "Fork of Comunnity Material Theme Darker High Contrast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.0.0"
   },
