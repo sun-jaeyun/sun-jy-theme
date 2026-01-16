@@ -1,4 +1,4 @@
-# sun-jy-theme
+# sunwjy-theme
 
 ## Why?
 

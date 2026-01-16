@@ -1,14 +1,14 @@
 {
-  "name": "sun-jy-theme",
-  "displayName": "Sun JY Theme",
-  "publisher": "SunJaeYun",
+  "name": "sunwjy-theme",
+  "displayName": "Sunwjy Theme",
+  "publisher": "Sunwjy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sun-jaeyun/sun-jy-theme.git"
+    "url": "git+https://github.com/sunwjy/sunwjy-theme.git"
   },
   "icon": "public/icon.png",
   "license": "MIT",
-  "description": "Fork of Comunnity Material Theme Darker High Contrast",
+  "description": "Fork of Comunnity Material Theme (Legacy Version) Darker High Contrast",
   "version": "1.0.3",
   "engines": {
     "vscode": "^1.0.0"
@@ -19,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sun JY Theme",
+        "label": "Sunwjy Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/sun-jy-theme.json"
+        "path": "./themes/sunwjy-theme.json"
       }
     ]
   }
