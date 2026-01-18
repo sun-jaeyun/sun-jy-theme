@@ -1,7 +1,7 @@
 {
   "name": "sunwjy-theme",
   "displayName": "Sunwjy Theme",
-  "publisher": "Sunwjy",
+  "publisher": "sunwjy",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sunwjy/sunwjy-theme.git"
