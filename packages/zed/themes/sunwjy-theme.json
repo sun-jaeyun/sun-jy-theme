@@ -146,6 +146,15 @@
         "unreachable": "#848484",
         "unreachable.background": "#1a1a1a",
         "unreachable.border": "#00000060",
+        "accents": [
+          "#80cbc4ff",
+          "#82aaffff",
+          "#c3e88dff",
+          "#c792eaff",
+          "#f78c6cff",
+          "#ff5370ff",
+          "#ffcb6bff"
+        ],
         "players": [
           {
             "cursor": "#ffcc00",

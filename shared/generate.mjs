@@ -14,7 +14,7 @@
 // Case rule: VSCode output is UPPERCASE hex, Zed output is lowercase hex.
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -40,7 +40,7 @@ const targets = [
 
 // Substitute palette tokens into the template text. `transform` sets the hex case.
 export function render(templateText, transform) {
-  return templateText
+  const text = templateText
     .replace(/\{\{(\w+)\|([0-9A-Fa-f]{2})\}\}/g, (_, name, alpha) => {
       const hex = palette[name];
       if (!hex) throw new Error(`Unknown palette token: ${name}`);
@@ -51,6 +51,11 @@ export function render(templateText, transform) {
       if (!hex) throw new Error(`Unknown palette token: ${name}`);
       return transform(hex);
     });
+  // Guard: no `{{` may survive substitution. A residual marker means a malformed
+  // token (typo, bad alpha suffix, stray braces) that would otherwise ship silently.
+  const residual = text.match(/\{\{[^}]*\}?\}?/);
+  if (residual) throw new Error(`Unsubstituted token marker remains: ${residual[0]}`);
+  return text;
 }
 
 // Render one target's output text (template -> substituted text), validating JSON.
@@ -71,6 +76,9 @@ function main() {
 
 export { targets };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Run main() only when invoked directly as the entry script — robust on paths
+// with spaces/non-ASCII. When imported (or via `node -e`) process.argv[1] may be
+// undefined, in which case this is not the entry module and main() must not run.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main();
 }

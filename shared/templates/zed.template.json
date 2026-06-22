@@ -146,6 +146,15 @@
         "unreachable": "{{textMuted}}",
         "unreachable.background": "{{bgDeep}}",
         "unreachable.border": "{{black|60}}",
+        "accents": [
+          "{{accentTeal|ff}}",
+          "{{blue|ff}}",
+          "{{green|ff}}",
+          "{{magenta|ff}}",
+          "{{orange|ff}}",
+          "{{red|ff}}",
+          "{{yellow|ff}}"
+        ],
         "players": [
           {
             "cursor": "{{cursorYellow}}",
