@@ -22,6 +22,10 @@ So I forked the legacy version to keep using the theme I love — and to keep it
 2. Run **Preferences: Color Theme**.
 3. Select **Sunwjy Theme**.
 
+## Zed
+
+A [Zed](https://zed.dev) port lives in [`zed/`](zed/) as a self-contained theme extension. See [`zed/README.md`](zed/README.md) for installation (registry, local dev extension, or manual theme file).
+
 ## Contribution
 
 Contributions are welcome — whether it's bug fixes, enhancements, or documentation improvements. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to set up, preview, and submit changes.

@@ -1,0 +1,7 @@
+id = "sunwjy-theme"
+name = "Sunwjy Theme"
+version = "1.0.4"
+schema_version = 1
+authors = ["sunwjy"]
+description = "Fork of Community Material Theme (Legacy Version) Darker High Contrast — Zed port."
+repository = "https://github.com/sunwjy/sunwjy-theme"
