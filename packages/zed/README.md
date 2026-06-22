@@ -1,6 +1,6 @@
 # Sunwjy Theme for Zed
 
-A Zed port of [Sunwjy Theme](../README.md) — a fork of the Community Material Theme (Legacy Version), Darker High Contrast.
+A Zed port of [Sunwjy Theme](../../README.md) — a fork of the Community Material Theme (Legacy Version), Darker High Contrast.
 
 ## Install
 
@@ -12,7 +12,7 @@ Once published: open the command palette (`cmd-shift-p` / `ctrl-shift-p`) → **
 
 1. Open Zed.
 2. Command palette → **zed: install dev extension**.
-3. Select this `zed/` directory.
+3. Select this `packages/zed/` directory.
 4. Command palette → **theme selector: toggle** → choose **Sunwjy Theme**.
 
 ### Manual (theme file only)
@@ -28,7 +28,7 @@ Then select it via **theme selector: toggle**.
 ## Structure
 
 ```
-zed/
+packages/zed/
 ├── extension.toml          # Zed extension manifest
 └── themes/
     └── sunwjy-theme.json    # Theme definition (Zed schema v0.2.0)

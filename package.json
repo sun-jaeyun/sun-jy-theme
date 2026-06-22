@@ -1,0 +1,16 @@
+{
+  "name": "sunwjy-theme-monorepo",
+  "version": "1.0.4",
+  "private": true,
+  "description": "Dev tooling for the Sunwjy Theme monorepo — generates the VSCode and Zed themes from a single shared palette.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunwjy/sunwjy-theme.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "generate": "node shared/generate.mjs",
+    "check": "node shared/check-drift.mjs",
+    "bump": "node shared/bump-version.mjs"
+  }
+}

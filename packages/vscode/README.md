@@ -24,13 +24,7 @@ So I forked the legacy version to keep using the theme I love — and to keep it
 
 ## Zed
 
-A [Zed](https://zed.dev) port lives in [`packages/zed/`](packages/zed/) as a self-contained theme extension. See [`packages/zed/README.md`](packages/zed/README.md) for installation (registry, local dev extension, or manual theme file).
-
-## Contribution
-
-Contributions are welcome — whether it's bug fixes, enhancements, or documentation improvements. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to set up, preview, and submit changes.
-
-Together, we can keep this theme alive and polished!
+A [Zed](https://zed.dev) port is also available — see the [project repository](https://github.com/sunwjy/sunwjy-theme) for details.
 
 ## License
 

@@ -1,0 +1,330 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Sunwjy Theme",
+  "author": "sunwjy",
+  "themes": [
+    {
+      "name": "Sunwjy Theme",
+      "appearance": "dark",
+      "style": {
+        "background.appearance": "opaque",
+        "border": "{{black|60}}",
+        "border.variant": "{{black|30}}",
+        "border.focused": "{{accentTeal}}",
+        "border.selected": "{{accentTeal}}",
+        "border.transparent": "{{black|00}}",
+        "border.disabled": "{{black|30}}",
+        "elevated_surface.background": "{{bg}}",
+        "surface.background": "{{bgDeep}}",
+        "background": "{{bgDeep}}",
+        "element.background": "{{bgInput}}",
+        "element.hover": "{{white|0d}}",
+        "element.active": "{{white|14}}",
+        "element.selected": "{{black|50}}",
+        "element.disabled": "{{black|00}}",
+        "drop_target.background": "{{accentTeal|33}}",
+        "ghost_element.background": "{{black|00}}",
+        "ghost_element.hover": "{{white|0d}}",
+        "ghost_element.active": "{{white|14}}",
+        "ghost_element.selected": "{{black|50}}",
+        "ghost_element.disabled": "{{black|00}}",
+        "text": "{{textPrimary}}",
+        "text.muted": "{{textMuted}}",
+        "text.placeholder": "{{textPrimary|60}}",
+        "text.disabled": "{{textDisabled}}",
+        "text.accent": "{{accentTeal}}",
+        "icon": "{{textPrimary}}",
+        "icon.muted": "{{textMuted}}",
+        "icon.disabled": "{{textDisabled}}",
+        "icon.placeholder": "{{textMuted}}",
+        "icon.accent": "{{accentTeal}}",
+        "status_bar.background": "{{bgDeep}}",
+        "title_bar.background": "{{bgDeep}}",
+        "title_bar.inactive_background": "{{bgDeep}}",
+        "toolbar.background": "{{bg}}",
+        "tab_bar.background": "{{bg}}",
+        "tab.inactive_background": "{{bgDeep}}",
+        "tab.active_background": "{{bg}}",
+        "search.match_background": "{{accentTeal|40}}",
+        "panel.background": "{{bgDeep}}",
+        "panel.focused_border": "{{accentTeal}}",
+        "panel.indent_guide": "{{line}}",
+        "panel.indent_guide_hover": "{{textMuted}}",
+        "panel.indent_guide_active": "{{accentTeal}}",
+        "pane.focused_border": "{{accentTeal}}",
+        "pane_group.border": "{{black|60}}",
+        "scrollbar.thumb.background": "{{textPrimary|20}}",
+        "scrollbar.thumb.hover_background": "{{textPrimary|30}}",
+        "scrollbar.thumb.border": "{{black|00}}",
+        "scrollbar.track.background": "{{black|00}}",
+        "scrollbar.track.border": "{{black|00}}",
+        "editor.foreground": "{{textPrimary}}",
+        "editor.background": "{{bg}}",
+        "editor.gutter.background": "{{bg}}",
+        "editor.subheader.background": "{{bgDeep}}",
+        "editor.active_line.background": "{{black|40}}",
+        "editor.highlighted_line.background": "{{black|50}}",
+        "editor.line_number": "{{line}}",
+        "editor.active_line_number": "{{textMuted}}",
+        "editor.invisible": "{{textPrimary|40}}",
+        "editor.wrap_guide": "{{line|70}}",
+        "editor.active_wrap_guide": "{{line}}",
+        "editor.indent_guide": "{{line|70}}",
+        "editor.indent_guide_active": "{{line}}",
+        "editor.document_highlight.read_background": "{{cursorYellow|20}}",
+        "editor.document_highlight.write_background": "{{cursorYellow|30}}",
+        "editor.document_highlight.bracket_background": "{{cursorYellow|50}}",
+        "terminal.background": "{{bg}}",
+        "terminal.foreground": "{{textPrimary}}",
+        "terminal.bright_foreground": "{{white}}",
+        "terminal.dim_foreground": "{{textMuted}}",
+        "terminal.ansi.background": "{{bg}}",
+        "terminal.ansi.black": "{{black}}",
+        "terminal.ansi.red": "{{red}}",
+        "terminal.ansi.green": "{{green}}",
+        "terminal.ansi.yellow": "{{yellow}}",
+        "terminal.ansi.blue": "{{blue}}",
+        "terminal.ansi.magenta": "{{magenta}}",
+        "terminal.ansi.cyan": "{{cyan}}",
+        "terminal.ansi.white": "{{white}}",
+        "terminal.ansi.bright_black": "{{textDisabled}}",
+        "terminal.ansi.bright_red": "{{red}}",
+        "terminal.ansi.bright_green": "{{green}}",
+        "terminal.ansi.bright_yellow": "{{yellow}}",
+        "terminal.ansi.bright_blue": "{{blue}}",
+        "terminal.ansi.bright_magenta": "{{magenta}}",
+        "terminal.ansi.bright_cyan": "{{cyan}}",
+        "terminal.ansi.bright_white": "{{white}}",
+        "terminal.ansi.dim_black": "{{ansiDimBlack}}",
+        "terminal.ansi.dim_red": "{{ansiDimRed}}",
+        "terminal.ansi.dim_green": "{{ansiDimGreen}}",
+        "terminal.ansi.dim_yellow": "{{ansiDimYellow}}",
+        "terminal.ansi.dim_blue": "{{ansiDimBlue}}",
+        "terminal.ansi.dim_magenta": "{{ansiDimMagenta}}",
+        "terminal.ansi.dim_cyan": "{{ansiDimCyan}}",
+        "terminal.ansi.dim_white": "{{ansiDimWhite}}",
+        "link_text.hover": "{{accentTeal}}",
+        "conflict": "{{yellow}}",
+        "conflict.background": "{{yellow|20}}",
+        "conflict.border": "{{yellow|50}}",
+        "created": "{{green}}",
+        "created.background": "{{green|20}}",
+        "created.border": "{{green|50}}",
+        "deleted": "{{red}}",
+        "deleted.background": "{{red|20}}",
+        "deleted.border": "{{red|50}}",
+        "modified": "{{blue}}",
+        "modified.background": "{{blue|20}}",
+        "modified.border": "{{blue|50}}",
+        "renamed": "{{blue}}",
+        "renamed.background": "{{blue|20}}",
+        "renamed.border": "{{blue|50}}",
+        "hidden": "{{textMuted}}",
+        "hidden.background": "{{bgDeep}}",
+        "hidden.border": "{{black|60}}",
+        "ignored": "{{textMuted}}",
+        "ignored.background": "{{bgDeep}}",
+        "ignored.border": "{{black|60}}",
+        "predictive": "{{textSubtle}}",
+        "predictive.background": "{{textSubtle|20}}",
+        "predictive.border": "{{textSubtle|50}}",
+        "error": "{{red}}",
+        "error.background": "{{red|20}}",
+        "error.border": "{{red|50}}",
+        "warning": "{{yellow}}",
+        "warning.background": "{{yellow|20}}",
+        "warning.border": "{{yellow|50}}",
+        "info": "{{blue}}",
+        "info.background": "{{blue|20}}",
+        "info.border": "{{blue|50}}",
+        "success": "{{green}}",
+        "success.background": "{{green|20}}",
+        "success.border": "{{green|50}}",
+        "hint": "{{accentTeal}}",
+        "hint.background": "{{accentTeal|20}}",
+        "hint.border": "{{accentTeal|50}}",
+        "unreachable": "{{textMuted}}",
+        "unreachable.background": "{{bgDeep}}",
+        "unreachable.border": "{{black|60}}",
+        "players": [
+          {
+            "cursor": "{{cursorYellow}}",
+            "background": "{{cursorYellow}}",
+            "selection": "{{neutral|50}}"
+          },
+          {
+            "cursor": "{{blue}}",
+            "background": "{{blue}}",
+            "selection": "{{blue|3d}}"
+          },
+          {
+            "cursor": "{{green}}",
+            "background": "{{green}}",
+            "selection": "{{green|3d}}"
+          },
+          {
+            "cursor": "{{magenta}}",
+            "background": "{{magenta}}",
+            "selection": "{{magenta|3d}}"
+          },
+          {
+            "cursor": "{{orange}}",
+            "background": "{{orange}}",
+            "selection": "{{orange|3d}}"
+          },
+          {
+            "cursor": "{{red}}",
+            "background": "{{red}}",
+            "selection": "{{red|3d}}"
+          },
+          {
+            "cursor": "{{cyan}}",
+            "background": "{{cyan}}",
+            "selection": "{{cyan|3d}}"
+          },
+          {
+            "cursor": "{{yellow}}",
+            "background": "{{yellow}}",
+            "selection": "{{yellow|3d}}"
+          }
+        ],
+        "syntax": {
+          "attribute": {
+            "color": "{{magenta}}",
+            "font_style": "italic"
+          },
+          "boolean": {
+            "color": "{{orange}}"
+          },
+          "comment": {
+            "color": "{{commentGreen}}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{commentGreen}}",
+            "font_style": "italic"
+          },
+          "constant": {
+            "color": "{{orange}}"
+          },
+          "constructor": {
+            "color": "{{blue}}"
+          },
+          "embedded": {
+            "color": "{{textPrimary}}"
+          },
+          "emphasis": {
+            "color": "{{tag}}",
+            "font_style": "italic"
+          },
+          "emphasis.strong": {
+            "color": "{{tag}}",
+            "font_weight": 700
+          },
+          "enum": {
+            "color": "{{yellow}}"
+          },
+          "function": {
+            "color": "{{blue}}"
+          },
+          "function.method": {
+            "color": "{{blue}}"
+          },
+          "function.decorator": {
+            "color": "{{blue}}",
+            "font_style": "italic"
+          },
+          "hint": {
+            "color": "{{property}}"
+          },
+          "keyword": {
+            "color": "{{magenta}}",
+            "font_style": "italic"
+          },
+          "label": {
+            "color": "{{red}}"
+          },
+          "link_text": {
+            "color": "{{blue}}"
+          },
+          "link_uri": {
+            "color": "{{blue}}",
+            "font_style": "italic"
+          },
+          "number": {
+            "color": "{{orange}}"
+          },
+          "operator": {
+            "color": "{{cyan}}"
+          },
+          "predictive": {
+            "color": "{{textSubtle}}",
+            "font_style": "italic"
+          },
+          "preproc": {
+            "color": "{{magenta}}"
+          },
+          "primary": {
+            "color": "{{textPrimary}}"
+          },
+          "property": {
+            "color": "{{property}}"
+          },
+          "punctuation": {
+            "color": "{{cyan}}"
+          },
+          "punctuation.bracket": {
+            "color": "{{cyan}}"
+          },
+          "punctuation.delimiter": {
+            "color": "{{cyan}}"
+          },
+          "punctuation.list_marker": {
+            "color": "{{textPrimary}}"
+          },
+          "punctuation.special": {
+            "color": "{{cyan}}"
+          },
+          "string": {
+            "color": "{{green}}"
+          },
+          "string.escape": {
+            "color": "{{cyan}}"
+          },
+          "string.regex": {
+            "color": "{{cyan}}"
+          },
+          "string.special": {
+            "color": "{{green}}"
+          },
+          "string.special.symbol": {
+            "color": "{{green}}"
+          },
+          "tag": {
+            "color": "{{tag}}"
+          },
+          "text.literal": {
+            "color": "{{magenta}}"
+          },
+          "title": {
+            "color": "{{green}}",
+            "font_weight": 700
+          },
+          "type": {
+            "color": "{{yellow}}"
+          },
+          "variable": {
+            "color": "{{textPrimary}}"
+          },
+          "variable.special": {
+            "color": "{{red}}",
+            "font_style": "italic"
+          },
+          "variant": {
+            "color": "{{yellow}}"
+          }
+        }
+      }
+    }
+  ]
+}
