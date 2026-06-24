@@ -62,7 +62,7 @@
         "editor.background": "{{bg}}",
         "editor.gutter.background": "{{bg}}",
         "editor.subheader.background": "{{bgDeep}}",
-        "editor.active_line.background": "{{black|40}}",
+        "editor.active_line.background": "{{black|50}}",
         "editor.highlighted_line.background": "{{black|50}}",
         "editor.line_number": "{{line}}",
         "editor.active_line_number": "{{textMuted}}",
@@ -250,6 +250,14 @@
             "color": "{{magenta}}",
             "font_style": "italic"
           },
+          "keyword.control": {
+            "color": "{{cyan}}",
+            "font_style": "italic"
+          },
+          "keyword.import": {
+            "color": "{{cyan}}",
+            "font_style": "italic"
+          },
           "label": {
             "color": "{{red}}"
           },
@@ -278,6 +286,9 @@
           },
           "property": {
             "color": "{{property}}"
+          },
+          "property.json_key": {
+            "color": "{{magenta}}"
           },
           "punctuation": {
             "color": "{{cyan}}"
@@ -322,8 +333,14 @@
           "type": {
             "color": "{{yellow}}"
           },
+          "type.builtin": {
+            "color": "{{property}}"
+          },
           "variable": {
             "color": "{{textPrimary}}"
+          },
+          "variable.parameter": {
+            "color": "{{red}}"
           },
           "variable.special": {
             "color": "{{red}}",
